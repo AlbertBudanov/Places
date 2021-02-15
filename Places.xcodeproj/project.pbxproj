@@ -14,6 +14,7 @@
 		50DFF87025DB076B007B4DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DFF86E25DB076B007B4DAD /* LaunchScreen.storyboard */; };
 		50DFF87F25DB0ADF007B4DAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */; };
 		50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF88525DB123C007B4DAD /* CustomCell.swift */; };
+		50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF88825DB15F1007B4DAD /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50DFF87125DB076B007B4DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50DFF88525DB123C007B4DAD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		50DFF88825DB15F1007B4DAD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				50DFF86325DB076A007B4DAD /* AppDelegate.swift */,
 				50DFF86525DB076A007B4DAD /* SceneDelegate.swift */,
 				50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */,
+				50DFF88825DB15F1007B4DAD /* PlaceModel.swift */,
 				50DFF88525DB123C007B4DAD /* CustomCell.swift */,
 				50DFF86925DB076A007B4DAD /* Main.storyboard */,
 				50DFF86C25DB076B007B4DAD /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				50DFF87F25DB0ADF007B4DAD /* MainViewController.swift in Sources */,
 				50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */,
+				50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */,
 				50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */,
 				50DFF86625DB076A007B4DAD /* SceneDelegate.swift in Sources */,
 			);
