@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50879C1125DBEA0B007FC135 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */; };
 		50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF86325DB076A007B4DAD /* AppDelegate.swift */; };
 		50DFF86625DB076A007B4DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF86525DB076A007B4DAD /* SceneDelegate.swift */; };
 		50DFF86B25DB076A007B4DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DFF86925DB076A007B4DAD /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		50DFF86025DB076A007B4DAD /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DFF86325DB076A007B4DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50DFF86525DB076A007B4DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */,
 				50DFF88825DB15F1007B4DAD /* PlaceModel.swift */,
 				50DFF88525DB123C007B4DAD /* CustomCell.swift */,
+				50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */,
 				50DFF86925DB076A007B4DAD /* Main.storyboard */,
 				50DFF86C25DB076B007B4DAD /* Assets.xcassets */,
 				50DFF86E25DB076B007B4DAD /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DFF87F25DB0ADF007B4DAD /* MainViewController.swift in Sources */,
+				50879C1125DBEA0B007FC135 /* NewPlaceViewController.swift in Sources */,
 				50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */,
 				50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */,
 				50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */,
