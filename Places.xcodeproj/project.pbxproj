@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		50879C1125DBEA0B007FC135 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */; };
 		50879C1C25DC13E2007FC135 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50879C1B25DC13E2007FC135 /* StorageManager.swift */; };
+		509DB9A125DD4BD8003AE32E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DB9A025DD4BD8003AE32E /* MapViewController.swift */; };
 		50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF86325DB076A007B4DAD /* AppDelegate.swift */; };
 		50DFF86625DB076A007B4DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF86525DB076A007B4DAD /* SceneDelegate.swift */; };
 		50DFF86B25DB076A007B4DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DFF86925DB076A007B4DAD /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		50879C1B25DC13E2007FC135 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		509DB9A025DD4BD8003AE32E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		50DFF86025DB076A007B4DAD /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DFF86325DB076A007B4DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50DFF86525DB076A007B4DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +78,10 @@
 				50DFF86325DB076A007B4DAD /* AppDelegate.swift */,
 				50DFF86525DB076A007B4DAD /* SceneDelegate.swift */,
 				50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */,
+				50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */,
+				509DB9A025DD4BD8003AE32E /* MapViewController.swift */,
 				50DFF88825DB15F1007B4DAD /* PlaceModel.swift */,
 				50DFF88525DB123C007B4DAD /* CustomCell.swift */,
-				50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */,
 				50879C1B25DC13E2007FC135 /* StorageManager.swift */,
 				50F951C625DD06A70092CB47 /* RatingControl.swift */,
 				50DFF86925DB076A007B4DAD /* Main.storyboard */,
@@ -224,6 +227,7 @@
 				50879C1125DBEA0B007FC135 /* NewPlaceViewController.swift in Sources */,
 				50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */,
 				50879C1C25DC13E2007FC135 /* StorageManager.swift in Sources */,
+				509DB9A125DD4BD8003AE32E /* MapViewController.swift in Sources */,
 				50F951C725DD06A70092CB47 /* RatingControl.swift in Sources */,
 				50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */,
 				50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */,
