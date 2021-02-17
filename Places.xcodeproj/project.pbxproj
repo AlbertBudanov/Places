@@ -17,6 +17,7 @@
 		50DFF87F25DB0ADF007B4DAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */; };
 		50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF88525DB123C007B4DAD /* CustomCell.swift */; };
 		50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFF88825DB15F1007B4DAD /* PlaceModel.swift */; };
+		50F951C725DD06A70092CB47 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F951C625DD06A70092CB47 /* RatingControl.swift */; };
 		E486A34CAF89AE3457C20B9A /* Pods_Places.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F521BDE3F5F2F2A1C9B3FA99 /* Pods_Places.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		50DFF87E25DB0ADF007B4DAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50DFF88525DB123C007B4DAD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		50DFF88825DB15F1007B4DAD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		50F951C625DD06A70092CB47 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		5608223124087DD4B8E00B17 /* Pods-Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places.release.xcconfig"; path = "Target Support Files/Pods-Places/Pods-Places.release.xcconfig"; sourceTree = "<group>"; };
 		5C2B3A8A542C766F426D5FD2 /* Pods-Places.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places.debug.xcconfig"; path = "Target Support Files/Pods-Places/Pods-Places.debug.xcconfig"; sourceTree = "<group>"; };
 		F521BDE3F5F2F2A1C9B3FA99 /* Pods_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				50DFF88525DB123C007B4DAD /* CustomCell.swift */,
 				50879C1025DBEA0B007FC135 /* NewPlaceViewController.swift */,
 				50879C1B25DC13E2007FC135 /* StorageManager.swift */,
+				50F951C625DD06A70092CB47 /* RatingControl.swift */,
 				50DFF86925DB076A007B4DAD /* Main.storyboard */,
 				50DFF86C25DB076B007B4DAD /* Assets.xcassets */,
 				50DFF86E25DB076B007B4DAD /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 				50879C1125DBEA0B007FC135 /* NewPlaceViewController.swift in Sources */,
 				50DFF86425DB076A007B4DAD /* AppDelegate.swift in Sources */,
 				50879C1C25DC13E2007FC135 /* StorageManager.swift in Sources */,
+				50F951C725DD06A70092CB47 /* RatingControl.swift in Sources */,
 				50DFF88925DB15F1007B4DAD /* PlaceModel.swift in Sources */,
 				50DFF88625DB123C007B4DAD /* CustomCell.swift in Sources */,
 				50DFF86625DB076A007B4DAD /* SceneDelegate.swift in Sources */,
@@ -381,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Budanov.Places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -401,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Budanov.Places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
