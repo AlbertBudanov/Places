@@ -71,6 +71,7 @@ class NewPlaceViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifire = segue.identifier,
             let mapVC = segue.destination as? MapViewController else { return }
+        mapVC.mapViewControllerDelegate = self
        
         mapVC.incomeSegueIdentifire = identifire
         if identifire == "showPlace" {
@@ -180,4 +181,10 @@ extension NewPlaceViewController: UIImagePickerControllerDelegate, UINavigationC
     }
     
   
+}
+
+extension NewPlaceViewController: MapViewControllerDelegate {
+    func getAddress(_ address: String?) {
+        placeLocation.text = address
+    }
 }
